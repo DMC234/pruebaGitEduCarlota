@@ -1,0 +1,205 @@
+/*Prototypes*/
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-image: linear-gradient(to right, red, silver);
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+/*Header*/
+
+#heading {
+    clear: both;
+    float: left;
+    padding: 2% 0%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-bottom: solid 2px black;
+}
+
+#heading>h1 {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 2.5vw;
+}
+
+/*Formulario*/
+
+#form_section {
+    clear: both;
+    float: left;
+    width: 100%;
+    padding: 4.5% 0%;
+}
+
+.form_section_div:nth-child(1){
+    margin-left: 1%;
+    float: left;
+    width: 32%;
+}
+
+.form_section_div:nth-child(2){
+    margin-left: 1%;
+    float: left;
+    width: 64.5%;
+}
+
+.form_section_div {
+    float: left;
+    width: 48%;
+    margin-left: 1%;
+    border: inset 2px grey;
+    background-color: rgba(0,0,0,0.5);
+}
+
+/*Formulario registrar libro*/
+
+.form_section_div:nth-child(1)>form {
+    float: left;
+    width: 100%;
+}
+
+.form_section_div:nth-child(1)>form>div {
+    float: left;
+    width: 100%;
+    padding: 2% 0%;
+}
+
+input, textarea{
+    letter-spacing: 1.3px;
+    border-radius: 5px;
+    border:outset 1px crimson
+}
+
+input[type="text"] {
+    width: 99%;
+    padding: 2% 0%;
+    font-size: 1vw;
+}
+
+input[type="range"] {
+    width: 99%;
+    padding: 2% 0%;
+    font-size: 1vw;
+}
+
+input[type="submit"] {
+    width: 99%;
+    padding: 2% 0%;
+    font-size: 1vw;
+    transition: 1s;
+    background-color: silver;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+   transition: 1s;
+   background-color: crimson;
+   color: white;
+   letter-spacing: 5px;
+   font-weight: bold;
+}
+
+textarea {
+    width: 99%;
+    font-size: 1vw;
+}
+
+/*Formulario mostrar opiniones*/
+
+.form_section_div:nth-child(2)>table {
+    float: left;
+    width: 100%;
+    border: solid 1px black;
+    color: white;
+    font-weight: bold;
+    border-collapse: collapse;
+}
+
+th {
+    border-bottom: solid 2px black;
+    font-size: 1.25vw;
+    text-align: center;
+}
+
+td {
+    border: outset 2px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    font-weight: lighter;
+    font-size: 1.1vw;
+}
+
+td:nth-child(odd){
+    background-color: crimson;
+    width: 10%;
+}
+td:nth-child(3){
+    width: 15%;
+}
+td:nth-child(even){
+    background-color: silver;
+    color: black;
+    font-weight: bolder;
+    width: 2%;
+}
+
+.form_section_img{
+    float: left;
+    width: 60%;
+    margin-left: 20%;
+}
+    /*input range*/
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 1;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    transition: 1s;
+}
+
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 2.5vw;
+    height: 2.5vw;
+    border-radius: 50%;
+    background-image: url("../img/slider.png");
+    background-size: 100%, 100%;
+    cursor: pointer;
+}
+.slider:hover {
+    height: 0.1px;
+    border: solid 2px white;
+    transition: 1s;
+    background-color: white;
+}
+
+/*Pie de pagina*/
+#footer {
+    clear: both;
+    float: left;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+#footer>div {
+    float: left;
+    width: 100%;
+    padding: 1.651% 0%;
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+    text-align: center;
+    font-size: 1vw;
+    font-weight: lighter;
+}

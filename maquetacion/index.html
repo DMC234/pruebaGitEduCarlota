@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Inicio - Pagina</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fuentes.css">
+</head>
+
+<body>
+    <!--Header-->
+    <header id="heading">
+        <h1>GESTOR DE LIBROS</h1>
+    </header>
+
+    <!--Formulario-->
+    <section id="form_section">
+        <div class="form_section_div">
+            <form action="" method="POST">
+                <div>
+                    <input type="text" name="titulo_libro" id="" placeholder="Título del libro">
+                </div>
+                <div>
+                    <textarea name="descripcion_libro" id="" cols="30" rows="10" maxlength="50"
+                        placeholder="Descripción libro"></textarea>
+                </div>
+                <div>
+                    <input type="range" min="0" max="10" class="slider" />
+                </div>
+                <div>
+                    <input type="submit" value="Registrar Libro">
+                </div>
+        </div>
+     <!--Sección de valoraciones de libros-->   
+        <div class="form_section_div">
+            <table>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Valoración</th>
+                    <th>Descripción</th>
+                    <th>Carátula</th>
+                </tr>
+                <tr>
+                    <td>El exorcista</th>
+                    <td>7 / 10</td>
+                    <td>"Es un libro muy bueno y excepcional, vale mucho la pena leerlo, ya sea por su género exquisito
+                        o por su buena y desarrollada trama"</td>
+                    <td><img src="https://www.fotografonocturno.com/wp-content/uploads/2015/06/Libro-el-fot%C3%B3grafo-en-la-noche-1.png"
+                            class="form_section_img"></td>
+                </tr>
+                <tr>
+                    <td>Las colinas sin silencio</th>
+                    <td>9.5 / 10</td>
+                    <td>"Es un libro muy bueno y excepcional, vale mucho la pena leerlo, ya sea por su género exquisito
+                        o por su buena y desarrollada trama"</td>
+                    <td><img src="http://pilarsanzcervera.com/wp-content/uploads/2018/03/libro.png"
+                            class="form_section_img"></td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <!--Pie de página--> 
+    <footer id="footer">
+        <div>
+            <h3>Eduardo del Río Rodríguez 2ºDAW</h3>
+        </div>
+    </footer>
+
+</body>
+
+</html>
